@@ -14,10 +14,15 @@ const userData = {
       { task: "Schedule Appointment" },
       { task: "Review for Exam" },
       { task: "Finish the Project" },
+      { task: "but Prok belly"},
+      { task: "Experiment only"},
+      { task: "developer a"},
+      { task: "developer b"},
+      { task: "hotfix"},
+
     ],
   },
 };
-
 async function main() {
   await prisma.user.create({ data: userData });
 }
